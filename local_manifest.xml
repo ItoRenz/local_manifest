@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+        <remote name="ItoRenz"
+                fetch="https://github.com" />
+
+        <!-- Sync device trees -->
+        <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="ItoRenz" revision="conquer" />
+        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="ItoRenz" revision="test" />
+
+        <!-- Sync vendor trees -->
+        <project path="vendor/xiaomi/rova" name="ItoRenz/vendor_xiaomi_rova" remote="ItoRenz" revision="lineage-18.1" />
+        <project path="vendor/xiaomi/msm8937-common" name="ItoRenz/vendor_xiaomi_msm8937-common" remote="ItoRenz" revision="lineage-18.1" />
+
+        <!-- Sync kernel trees -->
+        <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="mi8937-new" />
+
+        <!-- Remove r Hals -->
+        <remove-project name="hardware_qcom-caf_msm8996_display" />
+
+        <!-- Clone r Hals -->
+        <project path="hardware/qcom-caf/msm8996/display" name="ItoRenz/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="ItoRenz" revision="11.0-caf-msm8996" />
+
+</manifest>
