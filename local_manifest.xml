@@ -21,9 +21,9 @@
         <remove-project name="hardware_qcom-caf_msm8996_audio" />
 
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="ItoRenz/hardware_qcom-caf_msm8996_display" remote="ItoRenz" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/media" name="ItoRenz/hardware_qcom-caf_msm8996_media" remote="ItoRenz" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="ItoRenz/hardware_qcom-caf_msm8996_audio" remote="ItoRenz" revision="10" />
+        <project path="hardware/qcom-caf/msm8996/display" name="ItoRenz/hardware_qcom-caf_msm8996_display-caf" remote="ItoRenz" revision="quartz-89xx" />
+        <project path="hardware/qcom-caf/msm8996/media" name="ItoRenz/hardware_qcom-caf_msm8996_media" remote="ItoRenz" revision="10-CAF-89xx" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="ItoRenz/hardware_qcom-caf_msm8996_audio" remote="ItoRenz" revision="10-CAF-89xx" />
         
         <!-- modul -->
         <project path="external/ant-wireless/antradio-library" name="ItoRenz/android_external_ant-wireless_antradio-library" remote="ItoRenz" revision="lineage-18.1" />
