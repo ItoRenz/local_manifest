@@ -17,8 +17,8 @@
 
         <!-- Clone r Hals -->
         <project path="hardware/qcom-caf/msm8996/display" name="Thagoo/hardware_qcom-caf_msm8996-r_display" remote="ItoRenz" revision="eleven" />
-        <project path="hardware/qcom-caf/msm8996/media" name="ItoRenz/hardware_qcom-caf_msm8996_media" remote="ItoRenz" revision="10-CAF-89xx" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="ItoRenz/hardware_qcom-caf_msm8996_audio" remote="ItoRenz" revision="10-CAF-89xx" />
+        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
 
         <!-- modul -->
         <project path="external/ant-wireless/antradio-library" name="ItoRenz/android_external_ant-wireless_antradio-library" remote="ItoRenz" revision="lineage-18.1" />
