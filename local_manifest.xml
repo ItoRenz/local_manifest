@@ -6,7 +6,7 @@
 
         <!-- Sync device trees -->
         <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="ItoRenz" revision="xdroid" />
-        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="ItoRenz" revision="lineage-18.1" />
+        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="ItoRenz" revision="xdroid" />
 
         <!-- Sync vendor trees -->
         <project path="vendor/xiaomi/rova" name="ItoRenz/vendor_xiaomi_rova" remote="ItoRenz" revision="lineage-18.1" />
