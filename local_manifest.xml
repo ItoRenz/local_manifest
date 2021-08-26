@@ -5,8 +5,8 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="ItoRenz" revision="xdroid" />
-        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="ItoRenz" revision="xdroid" />
+        <project path="device/xiaomi/rova" name="ItoRenz/device_xiaomi_rova" remote="ItoRenz" revision="xtended" />
+        <project path="device/xiaomi/msm8937-common" name="ItoRenz/device_xiaomi_msm8937-common" remote="ItoRenz" revision="xtended" />
 
         <!-- Sync vendor trees -->
         <project path="vendor/xiaomi/rova" name="ItoRenz/vendor_xiaomi_rova" remote="ItoRenz" revision="lineage-18.1" />
@@ -16,10 +16,8 @@
         <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="mi8937-new" />
 
         <!-- Clone r Hals -->
+        <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="ItoRenz" revision="11.0-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
-
-        <!-- modul -->
-        <project path="external/ant-wireless/antradio-library" name="ItoRenz/android_external_ant-wireless_antradio-library" remote="ItoRenz" revision="lineage-18.1" />
 
 </manifest>
