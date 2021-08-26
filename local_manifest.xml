@@ -16,6 +16,9 @@
         <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="mi8937-new" />
 
         <!-- Clone r Hals -->
+        <remove-project name="android_hardware_qcom_display" />
+        <remove-project name="android_hardware_qcom_media" />
+        <remove-project name="android_hardware_qcom_audio" />
         <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="ItoRenz" revision="11.0-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
