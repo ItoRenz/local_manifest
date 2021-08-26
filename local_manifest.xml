@@ -16,7 +16,7 @@
         <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="mi8937-new" />
 
         <!-- Clone r Hals -->
-        <project path="hardware/qcom-caf/msm8996/display" name="Thagoo/hardware_qcom-caf_msm8996-r_display" remote="ItoRenz" revision="eleven" />
+        <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
         <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
 
