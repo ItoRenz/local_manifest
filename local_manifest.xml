@@ -13,7 +13,7 @@
         <project path="vendor/xiaomi/msm8937-common" name="ItoRenz/vendor_xiaomi_msm8937-common" remote="ItoRenz" revision="lineage-18.1" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="mi8937-new" />
+        <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="a11" />
 
         <!-- Clone r Hals -->
         <remove-project name="android_hardware_qcom_display" />
