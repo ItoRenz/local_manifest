@@ -11,7 +11,7 @@
         <project path="vendor/xiaomi/rolex" name="ItoRenz/vendor_xiaomi_rolex" remote="ItoRenz" revision="r" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ItoRenz/kernel_xiaomi_msm8937" remote="ItoRenz" revision="a11" />
+        <project path="kernel/xiaomi/msm8937" name="ItoRenz/android_kernel_xiaomi_msm8937" remote="ItoRenz" revision="a11" />
 
         <!-- Clone r Hals -->
         <remove-project name="android_hardware_qcom_display" />
