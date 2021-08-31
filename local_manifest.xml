@@ -17,8 +17,8 @@
         <remove-project name="android_hardware_qcom_display" />
         <remove-project name="android_hardware_qcom_media" />
         <remove-project name="android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8996/display" name="ItoRenz/hardware_qcom-caf_msm8996_display" groups="qcom,pdk-qcom,qcom_display" remote="ItoRenz" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/media" name="ItoRenz/hardware_qcom-caf_msm8996_media" groups="qcom,pdk-qcom" remote="ItoRenz" revision="10" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="ItoRenz/hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" remote="ItoRenz" revision="10" />
+        <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="ItoRenz" revision="11.0-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
+        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
 
 </manifest>
