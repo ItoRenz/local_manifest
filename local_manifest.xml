@@ -8,7 +8,7 @@
         <project path="device/xiaomi/rolex" name="ItoRenz/device_xiaomi_rolex10" remote="ItoRenz" revision="nusantara" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi" name="ItoRenz/vendor_xiaomi_rolex" remote="ItoRenz" revision="r" />
+        <project path="vendor/xiaomi" name="ItoRenz/android_vendor_xiaomi" remote="ItoRenz" revision="10" />
 
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/msm8917" name="ItoRenz/kernel_xiaomi_rolex" remote="ItoRenz" revision="shuna" />
