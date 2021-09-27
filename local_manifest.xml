@@ -5,13 +5,17 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="ItoRenz/android_device_xiaomi_rolex" remote="ItoRenz" revision="build" />
+        <project path="device/xiaomi/rolex" name="ItoRenz-Build/android_device_xiaomi_rolex" remote="ItoRenz" revision="havoc" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="ItoRenz/vendor_xiaomi_rolex" remote="ItoRenz" revision="r" />
+        <project path="vendor/xiaomi/rolex" name="ItoRenz-Build/android_vendor_xiaomi_rolex" remote="ItoRenz" revision="r" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ItoRenz/android_kernel_xiaomi_msm8937" remote="ItoRenz" revision="11" />
+        <project path="kernel/xiaomi/msm8937" name="ItoRenz-Build/android_kernel_xiaomi_msm8937" remote="ItoRenz" revision="11-nad" />
+
+        <!-- Clone GCC -->
+        <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
+        <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
 
         <!-- Clone r Hals -->
         <remove-project name="android_hardware_qcom_display" />
