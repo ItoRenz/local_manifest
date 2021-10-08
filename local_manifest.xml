@@ -5,24 +5,16 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="ItoRenz-Build/android_device_xiaomi_rolex" remote="ItoRenz" revision="havoc" />
+        <project path="device/xiaomi/rova" name="ItoRenz-Build/device_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rolex" name="ItoRenz-Build/android_vendor_xiaomi_rolex" remote="ItoRenz" revision="r" />
+        <project path="vendor/xiaomi/rova" name="ItoRenz-Build/vendor_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/msm8937" name="ItoRenz-Build/android_kernel_xiaomi_msm8937" remote="ItoRenz" revision="11-nad" />
+        <project path="kernel/xiaomi/rova" name="ItoRenz-Build/kernel_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Clone GCC -->
-        <project path="prebuilts/evagcc/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
-        <project path="prebuilts/evagcc/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
-
-        <!-- Clone r Hals -->
-        <remove-project name="android_hardware_qcom_display" />
-        <remove-project name="android_hardware_qcom_media" />
-        <remove-project name="android_hardware_qcom_audio" />
-        <project path="hardware/qcom-caf/msm8996/display" name="crdroidandroid/android_hardware_qcom_display" remote="ItoRenz" revision="11.0-caf-msm8996" />
-        <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
-        <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" remote="ItoRenz" revision="lineage-18.1-caf-msm8996" />
+        <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
+        <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
 
 </manifest>
