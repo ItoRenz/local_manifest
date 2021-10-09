@@ -8,7 +8,7 @@
         <project path="device/xiaomi/rova" name="NusantaraROM-Devices/device_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rova" name="NusantaraROM-Devices/xiaomi_rova" remote="ItoRenz" revision="11" />
+        <project path="vendor/xiaomi/rova" name="NusantaraROM-Devices/vendor_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/rova" name="NusantaraROM-Devices/kernel_xiaomi_rova" remote="ItoRenz" revision="11" />
