@@ -5,13 +5,13 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rova" name="ItoRenz-Build/device_xiaomi_rovs" remote="ItoRenz" revision="nad" />
+        <project path="device/xiaomi/rova" name="NusantaraROM-Devices/device_xiaomi_rovs" remote="ItoRenz" revision="11" />
 
         <!-- Sync vendor trees -->
-        <project path="vendor/xiaomi/rova" name="ItoRenz-Build/xiaomi_rova" remote="ItoRenz" revision="11" />
+        <project path="vendor/xiaomi/rova" name="NusantaraROM-Devices/xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Sync kernel trees -->
-        <project path="kernel/xiaomi/rova" name="ItoRenz-Build/kernel_xiaomi_rova" remote="ItoRenz" revision="11" />
+        <project path="kernel/xiaomi/rova" name="NusantaraROM-Devices/kernel_xiaomi_rova" remote="ItoRenz" revision="11" />
 
         <!-- Clone GCC -->
         <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
