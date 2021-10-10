@@ -5,7 +5,7 @@
                 fetch="https://github.com" />
 
         <!-- Sync device trees -->
-        <project path="device/xiaomi/rolex" name="NusantaraROM-Devices/device_xiaomi_rova" remote="ItoRenz" revision="10" />
+        <project path="device/xiaomi/rolex" name="NusantaraROM-Devices/device_xiaomi_rolex" remote="ItoRenz" revision="10" />
 
         <!-- Sync vendor trees -->
         <project path="vendor/xiaomi" name="NusantaraROM-Devices/vendor_xiaomi_rolex" remote="ItoRenz" revision="10" />
