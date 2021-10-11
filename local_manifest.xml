@@ -17,4 +17,8 @@
         <!-- Sync kernel trees -->
         <project path="kernel/xiaomi/msm8937" name="NusantaraROM-Devices/kernel_xiaomi_rova" remote="ItoRenz" revision="11" />
 
+        <!-- Clone GCC -->
+        <project path="prebuilts/gcc64" name="mvaisakh/gcc-arm64" remote="ItoRenz" revision="gcc-master" />
+        <project path="prebuilts/gcc32" name="mvaisakh/gcc-arm" remote="ItoRenz" revision="gcc-master" />
+
 </manifest>
